@@ -8,7 +8,7 @@ function btnClick(event) {
   const color = getRandomHexColor();
 
   body.style.background = color;
-  colorEl.textContent = color;
+  colorElement.textContent = color;
 }
 
 function getRandomHexColor() {
